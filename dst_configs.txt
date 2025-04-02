@@ -1,0 +1,142 @@
+debuser@debian:~/.klei/DoNotStarveTogether/BelayaSpina$ cat cluster.ini
+
+[GAMEPLAY]
+game_mode = survival
+max_players = 8
+pvp = false
+pause_when_empty = true
+
+[NETWORK]
+cluster_description = Heeey U TEBA SpInA BelayAAA AHHHAHAHAAAAA, S PERVIM APRELYA!
+cluster_name = BelayaSpina
+cluster_password = 6142
+
+[MISC]
+console_enabled = true
+
+[SHARD]
+shard_enabled = true
+bind_ip = 127.0.0.1
+master_ip = 127.0.0.1
+master_port = 10889
+cluster_key = supersecretkey
+
+[CAVES]
+enabled = false
+
+
+
+
+
+
+
+
+
+
+  
+
+
+debuser@debian:~/.klei/DoNotStarveTogether/BelayaSpina/mods$ cat dedicated_server_mods_setup.lua
+ServerModSetup("2981714971")
+ServerModSetup("2759773711")
+ServerModSetup("376333686")
+ServerModSetup("661253977")
+ServerModSetup("2952811882")
+ServerModSetup("551324730")
+ServerModSetup("378160973")
+ServerModSetup("666155465")
+ServerModSetup("569043634")
+
+
+
+
+
+
+
+
+
+  
+
+debuser@debian:~/.klei/DoNotStarveTogether/BelayaSpina/Master$ cat modoverrides.lua
+return {
+  ["workshop-2759773711"]={ configuration_options={ keytools=122, removegreatknife=false }, enabled=true },
+  ["workshop-2952811882"]={
+    configuration_options={
+      Craft="Easy",
+      Extinguish=true,
+      Guard=true,
+      Harvestable=true,
+      Light=true,
+      Lunarthrall=true,
+      Pickable=true,
+      Pickup=0,
+      PositionX=0,
+      PositionY=0,
+      ProtectionRange=28,
+      Rest=true,
+      ShowRange=true
+    },
+    enabled=true
+  },
+  ["workshop-2981714971"]={ configuration_options={  }, enabled=true },
+  ["workshop-378160973"]={
+    configuration_options={
+      ENABLEPINGS=true,
+      FIREOPTIONS=2,
+      OVERRIDEMODE=false,
+      SHAREMINIMAPPROGRESS=true,
+      SHOWFIREICONS=true,
+      SHOWPLAYERICONS=true,
+      SHOWPLAYERSOPTIONS=2
+    },
+    enabled=true
+  },
+  ["workshop-551324730"]={ configuration_options={  }, enabled=true },
+  ["workshop-569043634"]={
+    configuration_options={
+      [""]=false,
+      Health_Penalty_Campfire=0,
+      Health_Penalty_Generic=0,
+      Health_Penalty_Maximum=0,
+      Health_Penalty_Meat_Effigy="Unchanged",
+      Health_Penalty_Portal=0,
+      Health_Penalty_Skeleton="Unchanged",
+      Health_Respawn_Amount="Unchanged",
+      KeepInventory="Unchanged",
+      KeepInventory_BugFix="Unchanged",
+      KillMe="Unchanged",
+      NoPlayerSkeletons="Unchanged",
+      RespawnMe="Unchanged",
+      ReturnHotkey="Unchanged",
+      ReturnHotkey_Mode="Closest",
+      SpawnProtection="Unchanged",
+      campfire="Enabled",
+      coldfire="Enabled",
+      coldfirepit="Enabled",
+      firepit="Enabled",
+      reviver="Unchanged",
+      skeleton="Unchanged",
+      usetags="Unchanged"
+    },
+    enabled=true
+  },
+  ["workshop-661253977"]={
+    configuration_options={ amudiao=true, baodiao=1, kong=0, nillots=0, rendiao=2, zbdiao=true },
+    enabled=true
+  },
+  ["workshop-666155465"]={
+    configuration_options={
+      chestB=-1,
+      chestG=-1,
+      chestR=-1,
+      display_hp=-1,
+      food_estimation=-1,
+      food_order=0,
+      food_style=0,
+      lang="auto",
+      show_food_units=-1,
+      show_uses=-1
+    },
+    enabled=true
+  }
+}
