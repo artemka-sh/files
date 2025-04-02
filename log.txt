@@ -1,0 +1,283 @@
+debuser@debian:~$ ./run_dedicated_servers.sh
+Redirecting stderr to '/home/debuser/Steam/logs/stderr.txt'
+ILocalize::AddFile() failed to load file "public/steambootstrapper_english.txt".
+[  0%] Checking for available update...
+[----] Downloading update (0 of 52,277 KB)...
+[  0%] Downloading update (0 of 52,277 KB)...
+[  0%] Downloading update (0 of 52,277 KB)...
+......................................................(loading)...........................
+[ 99%] Downloading update (52,277 of 52,277 KB)...
+[100%] Download Complete.
+[----] Applying update...
+[----] Extracting package...
+[----] Extracting package...
+[----] Extracting package...
+[----] Extracting package...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Cleaning up...
+[----] Update complete, launching...
+Redirecting stderr to '/home/debuser/Steam/logs/stderr.txt'
+Logging directory: '/home/debuser/Steam/logs'
+[  0%] Checking for available updates...
+[----] Verifying installation...
+[  0%] Downloading update...
+[  0%] Checking for available updates...
+[----] Download complete.
+[----] Extracting package...
+[----] Extracting package...
+[----] Extracting package...
+[----] Extracting package...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Installing update...
+[----] Cleaning up...
+[----] Update complete, launching Steamcmd...
+UpdateUI: skip show logo
+steamcmd.sh[2062]: Restarting steamcmd by request...
+Redirecting stderr to '/home/debuser/Steam/logs/stderr.txt'
+Logging directory: '/home/debuser/Steam/logs'
+[  0%] Checking for available updates...
+[----] Verifying installation...
+UpdateUI: skip show logo
+Steam Console Client (c) Valve Corporation - version 1743473060
+-- type 'quit' to exit --
+Loading Steam API...IPC function call IClientUtils::GetSteamRealm took too long: 214 msec
+IPC function call IClientUtils::GetConnectedUniverse took too long: 358 msec
+OK
+IPC function call IClientAppManager::ForceInstallDirOverride took too long: 111 msec
+
+Connecting anonymously to Steam Public...OK
+Waiting for client config...OK
+Waiting for user info...OK
+Success! App '343050' already up to date.
+Work thread 'CHTTPClientThreadPool:1' is marked exited, but we could not immediately join prior to deleting -- proceeding without join
+Master: [00:00:00]: PersistRootStorage is now /home/debuser/.klei//DoNotStarveTogether/BelayaSpina/Master/
+Master: [00:00:00]: Starting Up
+Master: [00:00:00]: Version: 662447
+Master: [00:00:00]: Current time: Wed Apr  2 08:37:54 2025
+Master:
+Master: [00:00:00]: System Name: Linux
+Master: [00:00:00]: Host Name: debian
+Master: [00:00:00]: Release(Kernel) Version: 6.1.0-32-686-pae
+Master: [00:00:00]: Kernel Build Timestamp: #1 SMP PREEMPT_DYNAMIC Debian 6.1.129-1 (2025-03-06)
+Master: [00:00:00]: Machine Arch: i686
+Master: [00:00:00]: Don't Starve Together: 662447 LINUX
+Master: [00:00:00]: Build Date: 9977
+Master: [00:00:00]: Mode: 32-bit
+Master: [00:00:00]: Parsing command line
+Master: [00:00:00]: Command Line Arguments: -console -cluster BelayaSpina -monitor_parent_process 2061 -shard Master
+Master: [00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+Master: [00:00:00]: Initializing distribution platform
+Master: [00:00:00]: ....Done
+Master: [00:00:00]: THREAD - started 'GAClient' (3058281280)
+Master: [00:00:00]: CurlRequestManager::ClientThread::Main()
+Master: [00:00:00]: ProfileIndex:20.73
+Master: [00:00:00]: Mounting file system databundles/klump.zip successful.
+Master: [00:00:00]: Mounting file system databundles/shaders.zip successful.
+Master: [00:00:00]: Mounting file system databundles/fonts.zip successful.
+Master: [00:00:01]: Mounting file system databundles/anim_dynamic.zip successful.
+Master: [00:00:01]: Mounting file system databundles/bigportraits.zip successful.
+Master: [00:00:01]: Mounting file system databundles/images.zip successful.
+Master: [00:00:01]: Mounting file system databundles/scripts.zip successful.
+Master: [00:00:01]: [Steam] SteamGameServer_Init(11000, 27018)
+[S_API] SteamAPI_Init(): Loaded local 'steamclient.so' OK.
+CAppInfoCacheReadFromDiskThread took 9 milliseconds to initialize
+Setting breakpad minidump AppID = 322330
+Master: [00:00:03]: [Steam] SteamGameServer_Init success
+Master: [00:00:03]: [Connect] PendingConnection::Reset(true)
+Master: [00:00:03]: Platform: 1
+Master: [00:00:03]: Network tick rate: U=15(2), D=0
+Master: [00:00:03]: Network tick rate: U=15(2), D=0
+Master: [00:00:03]: THREAD - started 'StreamInput' (2983172928)
+Master: [00:00:03]: OnLoadPermissionList: /home/debuser/.klei//DoNotStarveTogether/BelayaSpina/blocklist.txt (Failure)
+Master: [00:00:03]: OnLoadPermissionList: /home/debuser/.klei//DoNotStarveTogether/BelayaSpina/adminlist.txt (Failure)
+Master: [00:00:03]: OnLoadUserIdList: /home/debuser/.klei//DoNotStarveTogether/BelayaSpina/whitelist.txt (Failure)
+Master: [00:00:03]: Token retrieved from: /home/debuser/.klei//DoNotStarveTogether/BelayaSpina/cluster_token.txt
+Master: [00:00:03]: Token retrieved from: /home/debuser/.klei//DoNotStarveTogether/BelayaSpina/cluster_token.txt
+Master: [00:00:03]: cGame::InitializeOnMainThread
+Master: [00:00:03]: Renderer initialize: Okay
+Master: [00:00:03]: AnimManager initialize: Okay
+Master: [00:00:03]: Buffers initialize: Okay
+Master: [00:00:03]: cDontStarveGame::DoGameSpecificInitialize()
+Master: [00:00:03]: GameSpecific initialize: Okay
+Master: [00:00:03]: cGame::StartPlaying
+Master: [00:00:03]: AppVersion::GetArchitecture() x32
+Master: [00:00:03]: LOADING LUA
+[S_API FAIL] Tried to access Steam interface STEAMUGC_INTERFACE_VERSION016 before SteamAPI_Init succeeded.
+Master: [00:00:03]: DoLuaFile scripts/main.lua
+Master: [00:00:03]: DoLuaFile loading buffer scripts/main.lua
+Master: [00:00:07]:   taskgrouplist:    default Together
+Master: [00:00:07]:   taskgrouplist:    classic Classic
+Master: [00:00:07]:   taskgrouplist:    cave_default    Underground
+Master: [00:00:07]:   taskgrouplist:    lavaarena_taskset       The Forge
+Master: [00:00:07]:   taskgrouplist:    quagmire_taskset        The Gorge
+Master: [00:00:07]: Running main.lua
+Master:
+Master: [00:00:07]: loaded modindex
+Master: [00:00:07]: ModIndex: Beginning normal load sequence for dedicated server.
+Master:
+Master: [00:00:07]: SUCCESS: Loaded modoverrides.lua
+Master: [00:00:08]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+Master: [00:00:20]: LOADING LUA SUCCESS
+Master: [00:00:20]: PlayerDeaths could not load morgue
+Master: [00:00:20]: PlayerHistory could not load player_history
+Master: [00:00:20]: ServerPreferences could not load server_preferences
+Master: [00:00:20]: ConsoleScreenSettings could not load consolescreen
+Master: [00:00:20]: bloom_enabled       true
+Master: [00:00:20]: OnFilesLoaded()
+Master: [00:00:20]: OnUpdatePurchaseStateComplete
+Master: [00:00:20]: Klump load on boot started.
+Master: [00:00:20]: Klump files loaded:         0
+Master: [00:00:26]:     Load FE
+Master: [00:00:32]: THREAD - started 'FilesExistAsyncThread' (2951011136)
+Master: [00:00:32]: FilesExistAsyncThread started (26061 files)...
+Master: [00:00:32]:     Load FE: done
+Master: [00:00:33]: Check for write access: TRUE
+Master: [00:00:33]: Check for read access: TRUE
+Master: [00:00:33]: Available disk space for save files: 17488 MB
+Master: [00:00:33]: ModIndex: Load sequence finished successfully.
+Master: [00:00:33]: Reset() returning
+Master: [00:00:34]: [200] Account Communication Success (6)
+Master: [00:00:34]: Cached userid (null) saved to /home/debuser/.klei//DoNotStarveTogether/BelayaSpina/Master/save/cached_userid
+Master: [00:00:34]: Received (KU_K6-3qUee) from TokenPurpose
+Master: [00:00:34]: Starting Dedicated Server Game
+Master: [00:00:34]: Network tick rate: U=15(2), D=0
+Master: [00:00:34]: About to start a server with the following settings:
+Master: [00:00:34]:   Dedicated: true
+Master: [00:00:34]:   Online: true
+Master: [00:00:34]:   Passworded: true
+Master: [00:00:34]:   ServerPort: 11000
+Master: [00:00:34]:   SteamAuthPort: 8768
+Master: [00:00:34]:   SteamMasterServerPort: 27018
+Master: [00:00:34]:   ClanID: false
+Master: [00:00:34]:   ClanOnly: false
+Master: [00:00:34]:   ClanAdmin: false
+Master: [00:00:34]:   LanOnly: false
+Master: [00:00:34]:   FriendsOnly: false
+Master: [00:00:34]:   EnableAutosaver: true
+Master: [00:00:34]:   EncodeUserPath: true
+Master: [00:00:34]:   PVP: false
+Master: [00:00:34]:   MaxPlayers: 8
+Master: [00:00:34]:   GameMode: survival
+Master: [00:00:34]:   OverridenDNS:
+Master: [00:00:34]:   PauseWhenEmpty: true
+Master: [00:00:34]:   IdleTimeout: 1800s
+Master: [00:00:34]:   VoteEnabled: true
+Master: [00:00:34]:   InternetBroadcasting: true
+Master: [00:00:34]: Online Server Started on port: 11000
+Master: [00:00:34]: SUCCESS: Loaded modoverrides.lua
+Master: [00:00:34]: Not applying level data overrides.
+Master: [00:00:34]: Found a worldgen override file with these contents:
+Master: [00:00:34]:     K:      override_enabled         V:     true
+Master: [00:00:34]:     K:      overrides        V:     table: 0x114515e0
+Master: [00:00:34]:     K:      settings_preset  V:     SURVIVAL_TOGETHER
+Master: [00:00:34]:     K:      worldgen_preset  V:     SURVIVAL_TOGETHER
+Master: [00:00:34]:   sanity-checking worldgenoverride.lua...
+Master: [00:00:34]: Loaded and applied world gen overrides from ../worldgenoverride.lua
+Master: [00:00:34]:   contained worldgen preset SURVIVAL_TOGETHER, loading...
+Master: [00:00:34]:   contained settings preset SURVIVAL_TOGETHER, loading...
+Master: [00:00:34]: Overwriting savedata with override file.
+Master: [00:00:34]: Collecting garbage...
+Master: [00:00:34]: lua_gc took 0.33 seconds
+Master: [00:00:34]: ~ShardLuaProxy()
+Master: [00:00:34]: ~cEventLeaderboardProxy()
+Master: [00:00:34]: ~ItemServerLuaProxy()
+Master: [00:00:34]: ~InventoryLuaProxy()
+Master: [00:00:34]: ~NetworkLuaProxy()
+Master: [00:00:34]: ~SimLuaProxy()
+Master: [00:00:34]: FilesExistAsyncThread aborted.
+Master: [00:00:34]: ... FilesExistAsyncThread complete
+Master: [00:00:35]: lua_close took 0.42 seconds
+Master: [00:00:35]: ReleaseAll
+Master: [00:00:35]: ReleaseAll Finished
+Master: [00:00:35]: cGame::StartPlaying
+Master: [00:00:35]: AppVersion::GetArchitecture() x32
+Master: [00:00:35]: LOADING LUA
+Master: [00:00:35]: DoLuaFile scripts/main.lua
+Master: [00:00:35]: DoLuaFile loading buffer scripts/main.lua
+Master: [00:00:36]:   taskgrouplist:    default Together
+Master: [00:00:36]:   taskgrouplist:    classic Classic
+Master: [00:00:36]:   taskgrouplist:    cave_default    Underground
+Master: [00:00:36]:   taskgrouplist:    lavaarena_taskset       The Forge
+Master: [00:00:36]:   taskgrouplist:    quagmire_taskset        The Gorge
+Master: [00:00:36]: Running main.lua
+Master:
+Master: [00:00:36]: loaded modindex
+Master: [00:00:36]: ModIndex: Beginning normal load sequence for dedicated server.
+Master:
+Master: [00:00:36]: SUCCESS: Loaded modoverrides.lua
+Master: [00:00:47]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+Master: [00:00:47]: LOADING LUA SUCCESS
+Master: [00:00:47]: PlayerDeaths could not load morgue
+Master: [00:00:47]: PlayerHistory could not load player_history
+Master: [00:00:47]: ServerPreferences could not load server_preferences
+Master: [00:00:47]: ConsoleScreenSettings could not load consolescreen
+Master: [00:00:47]: bloom_enabled       true
+Master: [00:00:47]: OnFilesLoaded()
+Master: [00:00:47]: OnUpdatePurchaseStateComplete
+Master: [00:00:48]: Loading world: session/59EC887B7C787895/0000000002
+Master: [00:00:48]: Save file is at version 5.151
+Master: [00:00:48]: Klump load on boot started.
+Master: [00:00:48]: Klump files loaded:         0
+Master: [00:00:48]:     Unload FE
+Master: [00:00:48]:     Unload FE done
+Master: [00:01:25]:     LOAD BE
+Master: [00:03:21]:     LOAD BE: done
+Master: [00:03:29]: Begin Session: 59EC887B7C787895
+Master: [00:03:29]: saving to server_temp/server_save
+Master: [00:03:33]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+Master: [00:03:33]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+Master: [00:03:39]: Loading 19 new character(s)
+Master: [00:03:53]: Total 19 character(s) loaded
+Master: [00:03:57]: Loading Nav Grid
+Master: [00:03:57]: World generated on build 660872 with save version: 5.151, using seed: 1659061120
+Master: [00:04:34]: Reconstructing topology
+Master: [00:04:34]:     ...Sorting points
+Master: [00:04:34]:     ...Sorting edges
+Master: [00:04:34]:     ...Connecting nodes
+Master: [00:04:34]:     ...Validating connections
+Master: [00:04:35]:     ...Housekeeping
+Master: [00:04:35]:     ...Done!
+Master: [00:04:35]: 1 uploads added to server. From server_temp
+Master: [00:04:35]: About to start a shard with these settings:
+Master: [00:04:35]:   ShardName: [SHDMASTER]
+Master: [00:04:35]:   ShardID: 1
+Master: [00:04:35]:   ShardRole: MASTER
+Master: [00:04:35]:   MasterHost: (null)
+Master: [00:04:35]:   MasterBind: 127.0.0.1
+Master: [00:04:35]:   MasterPort: 10889
+Master: [00:04:35]: [Shard] Starting master server
+Master: [00:04:36]: [Shard] Shard server started on port: 10889
+Master: [00:04:36]: Telling Client our new session identifier: 59EC887B7C787895
+Master: [00:04:36]: Check for write access: TRUE
+Master: [00:04:36]: Check for read access: TRUE
+Master: [00:04:36]: Available disk space for save files: 17488 MB
+Master: [00:04:36]: ModIndex: Load sequence finished successfully.
+Master: [00:04:37]: Reset() returning
+Master: [00:04:48]: CURL ERROR: (dst.metrics.klei.com) [28]Failed to resolve host 'dst.metrics.klei.com' with timeout after 11995 ms
+Master: [00:04:57]: Validating portal[1] <-> <nil>[1] (inactive)
+Master: [00:04:58]: Validating portal[2] <-> <nil>[2] (inactive)
+Master: [00:04:58]: Validating portal[3] <-> <nil>[3] (inactive)
+Master: [00:04:58]: Validating portal[4] <-> <nil>[4] (inactive)
+Master: [00:04:58]: Validating portal[5] <-> <nil>[5] (inactive)
+Master: [00:04:58]: Validating portal[6] <-> <nil>[6] (inactive)
+Master: [00:04:58]: Validating portal[7] <-> <nil>[7] (inactive)
+Master: [00:04:58]: Validating portal[8] <-> <nil>[8] (inactive)
+Master: [00:04:58]: Validating portal[9] <-> <nil>[9] (inactive)
+Master: [00:04:59]: Validating portal[10] <-> <nil>[10] (inactive)
+Master: [00:05:00]: Server registered via geo DNS in eu-central-1
+Master: [00:05:00]: Sim paused
